@@ -12,7 +12,7 @@ const NotFound = () => {
         </div>
 
         <div className="text-center w-[490px] mx-auto text-white text-[18px] " >
-          The page you're looking for can't be found. Double-check the URL and try again. Or click the button below.
+          The page you&apos;re looking for can&apos;t be found. Double-check the URL and try again. Or click the button below.
         </div>
 
         <div>
