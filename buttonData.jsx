@@ -13,5 +13,8 @@ export const buttonData = [
     {
         name: 'VIEW ALL ARTICLES',
         // bg: 'white'
+    },
+    {
+        name: 'GO HOME',
     }
 ]
