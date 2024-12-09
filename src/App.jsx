@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import Home from './Pages/Home.jsx';
 import NotFound from './Pages/NotFound.jsx';
+import Tokens from './Pages/Tokens.jsx';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home/>} />
-        {/* <Route path='/sports' element={<Sports/>} /> */}
+        <Route path='/tokens' element={<Tokens/>} />
         <Route path='*' element={<NotFound/>} />
         
       </Routes>
