@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "/logo.png";
 import Button from "./Button";
 import { buttonData } from "../../buttonData";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     <>
       <nav className="bg-gray-900 fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600 px-1 lg:px-0 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
+          <Link to={'/'}
             href="#"
             className="flex items-center space-x-3 lg:-mr-48"
           >
@@ -19,7 +20,7 @@ const Navbar = () => {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               FinanceFlow
             </span>
-          </a>
+          </Link>
           <div className="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse">
             <button
               data-collapse-toggle="navbar-sticky"
@@ -73,53 +74,53 @@ const Navbar = () => {
           >
             <ul className="flex flex-col p-4 lg:p-5 mt-4 font-medium text-center w-full lg:space-x-8 lg:flex-row lg:mt-0">
               <li>
-                <a
+                <Link to={'/'}
                   href="#"
                   className="block py-2 px-3 text-white underline rounded lg:bg-transparent lg:text-blue-700 lg:p-0 lg:dark:text-blue-500"
                   aria-current="page"
                 >
                   HOME
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to={''}
                   href="#"
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   ABOUT
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to={''}
                   href="#"
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   PRICING
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link to={'/tokens'}
                     href="#"
                     className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                     >
                     TOKENS
-                    </a>
+                    </Link>
               </li>
               <li>
-                <a
+                <Link to={''}
                     href="#"
                     className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                     >
                     BLOG
-                    </a>
+                    </Link>
               </li>
               <li>
-                <a
+                <Link to={''}
                   href="#"
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   CONTACT US
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="text-center lg:mx-5 lg:absolute lg:right-20 p-10 " >

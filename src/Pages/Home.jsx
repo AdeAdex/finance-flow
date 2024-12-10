@@ -4,7 +4,6 @@ import { cardOneData } from "../../cardOneData";
 import { cardTwoData } from "../../cardTwoData";
 import { cardThreeData } from "../../cardThreeData";
 import { cardFourData } from "../../cardFourData";
-// import bigComputerImage from "../assets/Body Details.png"
 import Button from "../Components/Button";
 import Button2 from "../Components/Button2";
 import Button3 from "../Components/Button3";

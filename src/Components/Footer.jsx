@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
         <div className="bg-[#010D50] py-20 px-5 lg:px-36 text-white " >
-            <div className='block lg:flex justify-between' >
+            <div className='block ml-20 lg:ml-0 lg:flex lg:justify-between' >
                 <span className='flex items-center' >
                     <img src={logo} alt="logo" />
                     <p className='ml-2 text-white text-xl' >
