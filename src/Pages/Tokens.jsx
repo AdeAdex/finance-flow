@@ -25,14 +25,14 @@ const Tokens = () => {
                                 ))}
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className="text-xs lg:text-base" >
                             {data.coins.map((coin, index) => (
                                 <tr key={index} className="">
                                     <td className="p-5 border-b-2 border-gray-800">
                                         <img src={coin.icon} alt={coin.name} className="inline-block w-6 h-6 mr-2" />
                                         {coin.name}
                                     </td>
-                                    <td className="p-5 border-b-2 border-gray-800 line-clamp-2 lg:line-clamp-none ">{data.desc}</td>
+                                    <td className="p-5 border-b-2 border-gray-800">{data.desc}</td>
                                     <td className="p-5 border-b-2 border-gray-800">{data.marketCap}</td>
                                     <td className="p-5 border-b-2 border-gray-800">{data.volume}</td>
                                     <td className="p-5 border-b-2 border-gray-800 underline">
