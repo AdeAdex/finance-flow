@@ -352,8 +352,8 @@ const Home = () => {
           </div>
 
           <div className="text-center mt-5 " >
-            <span className="lg:mt-0 lg:ml-5 ">
-              {buttonData.slice(2).map((buttonData, idx) => (
+            <span className="lg:mt-0 lg:ml-10 ">
+              {buttonData.slice(2, 4).map((buttonData, idx) => (
                 <Button2 key={idx} name={buttonData.name} id={`btn2-${idx}`} />
               ))}
             </span>

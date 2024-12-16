@@ -75,7 +75,6 @@ const Navbar = () => {
             <ul className="flex flex-col p-4 lg:p-5 mt-4 font-medium text-center w-full lg:space-x-8 lg:flex-row lg:mt-0">
               <li>
                 <Link to={'/'}
-                  href="#"
                   className="block py-2 px-3 text-white underline rounded lg:bg-transparent lg:text-blue-700 lg:p-0 lg:dark:text-blue-500"
                   aria-current="page"
                 >
@@ -84,15 +83,13 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to={''}
-                  href="#"
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   ABOUT
                 </Link>
               </li>
               <li>
-                <Link to={''}
-                  href="#"
+                <Link to={'/pricing'}
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   PRICING
@@ -100,7 +97,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to={'/tokens'}
-                    href="#"
                     className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                     >
                     TOKENS
@@ -108,7 +104,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to={''}
-                    href="#"
                     className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                     >
                     BLOG
@@ -116,7 +111,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to={''}
-                  href="#"
                   className="block py-2 px-3 text-gray-900  lg:hover:hover:text-[#0328EE] lg:p-0 lg:dark:hover:text-[#0328EE] dark:text-white dark:hover:hover:text-[#0328EE] lg:dark:hover:bg-transparent"
                 >
                   CONTACT US
