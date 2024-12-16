@@ -4,6 +4,7 @@ import Footer from './Components/Footer.jsx';
 import Home from './Pages/Home.jsx';
 import NotFound from './Pages/NotFound.jsx';
 import Tokens from './Pages/Tokens.jsx';
+import Pricing from './Pages/Pricing.jsx';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/tokens' element={<Tokens/>} />
+        <Route path='/pricing' element={<Pricing/>} />
         <Route path='*' element={<NotFound/>} />
         
       </Routes>
